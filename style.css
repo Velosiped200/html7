@@ -1,0 +1,147 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  height: fit-content;
+  background-color: #c11515;
+  box-sizing: border-box;
+}
+
+.sticky__nav {
+  display: flex;
+  transition: ease-in-out 0.3s;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 0px 20px 0px;
+  justify-content: space-around;
+}
+
+.sticky__nav a {
+  color: white;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+}
+
+footer {
+  margin-top: 60px;
+  height: 220px;
+  text-align: center;
+  background-image: url("background.png");
+}
+
+.footer__title {
+  padding-top: 60px;
+}
+
+.footer__text {
+  margin-top: 20px;
+}
+
+.footer__button {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 3s;
+  z-index: 1;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.block {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  line-height: 24px;
+  box-sizing: border-box;
+  transition: ease-in-out 0.7s;
+}
+
+.main__content {
+  overflow-x: hidden;
+}
+
+.main__slogan {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.main__image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__info {
+  float: right;
+  width: 50%;
+  text-align: justify;
+}
+
+.main__about-game {
+  clear: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main__image {
+  height: 500px;
+}
+
+.main__about-image {
+  width: 100%;
+}
+
+.about__hd {
+  margin-right: 3%;
+  transition: ease-in-out 0.5s;
+}
+
+.about__dlc {
+  margin-top: 2%;
+  transition: ease-in-out 1.5s;
+}
+
+.about {
+  width: 37%;
+  justify-content: center;
+}
+
+.about__weapon {
+  text-align: left;
+  margin: 20px auto 20px auto;
+  width: 45%;
+}
+
+.weapon span {
+  font-weight: bold;
+}
+
+.weapon__text {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+}
+.weapon__list {
+  margin-top: 10px;
+  margin-left: 30px;
+  position: relative;
+  transition: ease-in-out 0.4s;
+}
